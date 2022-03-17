@@ -1,0 +1,14 @@
+[
+    {
+        "username":"Felix",
+        "access":["all"]
+    },
+    {
+        "username":"Vivek",
+        "access":["Name","Year","Count"]
+    },
+    {
+        "username":"Naveen",
+        "access":["Name","Year","State","Count"]
+    }
+]

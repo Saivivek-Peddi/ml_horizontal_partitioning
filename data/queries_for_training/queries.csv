@@ -1,0 +1,55 @@
+query,frequency
+"select * from df where State='AK' and Name='Anna'",1
+"select * from df where State='CA' and Name='Ruth'",1
+"select * from df where State='CA' and Name='Ruth'",1
+"select * from df where State='WA' and Name='Ruth'",1
+"select * from df where State='WA' and Name='Ruth' and Gender='F'",1
+"select * from df where State='WA' and Name='Ruth' and Gender='M'",1
+"select * from df where State='PA' and Gender='M'",1
+"select * from df where State='WA' and Name='Ruth' and Gender='M'",1
+"select * from df",1
+"select * from df where State='WA' and Year_Born='1999' and Gender='M'",1
+"select * from df where State='WA' and Year_Born='1998'",1
+"select * from df where State='WA'",1
+"select * from df where State='CA'",1
+"select * from df where State='AK'",1
+"select * from df where State='NY'",1
+"select * from df where State='PA'",1
+"select * from df where State='PI'",1
+"select * from df where Year_Born='2020'",1
+"select * from df where Year_Born='1910'",1
+"select * from df where Year_Born='1915'",2
+"select * from df where Year_Born='1980'",2
+"select * from df where Year_Born='2010'",2
+"select * from df where Year_Born='2025'",2
+"select * from df where Year_Born='2022'",2
+"select * from df where Year_Born='1998'",2
+"select * from df where Year_Born='1998' or Year_Born = '1995'",1
+"select * from df where Name like 'Ann'",1
+"select * from df where Name like 'Vivek'",1
+"select * from df where Name like 'KC'",1
+"select * from df where Name like 'Suvi'",1
+"select * from df where Name like 'Naveen'",1
+"select * from df where Name like 'Felix'",1
+"select * from df where Year_Born='1950'",1
+"select * from df where Year_Born='1980'",1
+"select * from df where State='WA' and Year_Born='1950'",1
+"select * from df where State='CA' and Year_Born='1950'",1
+"select * from df where State='KA' and Year_Born='1950'",1
+"select * from df where State='TX' and Year_Born='1997'",1
+"select * from df where State='WA' and Year_Born='1950' and Gender='F'",1
+"select * from df where Gender='F' and Year_Born='1950'",1
+"select * from df where Gender='M' and Year_Born='1950'",1
+"select * from df where Gender='M' and Name='Annie'",1
+"select * from df where Gender='F' and Name='Annie' and Year_Born='1998'",1
+"select * from df where Gender='M' and Name='Annie' and State='CA'",1
+"select * from df where Gender='M' and Name='Annie' and State='CA' and Year_Born = '1999' and cnt>20",1
+
+
+
+
+
+
+
+
+
